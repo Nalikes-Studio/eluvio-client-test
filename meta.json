@@ -1,0 +1,2403 @@
+{
+  "abr_mezzanine": {
+    "log": {
+      "entries": [],
+      "level": 3
+    },
+    "offerings": {
+      "default": {
+        "audio_individual_drm_keys": false,
+        "drm_optional": false,
+        "entry_point_rat": null,
+        "exit_point_rat": null,
+        "image_watermark": null,
+        "json_patch": "",
+        "log": {
+          "entries": [],
+          "level": 3
+        },
+        "max_play_seconds": 0,
+        "media_struct": {
+          "duration_rat": "14912/25",
+          "label": "",
+          "start_time_rat": "0",
+          "streams": {
+            "audio": {
+              "bit_rate": 436039,
+              "channel_layout": "5.1",
+              "channels": 6,
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "default_for_media_type": true,
+              "disable_encoder_substitution_seg": false,
+              "duration": {
+                "float": 596.48,
+                "float_exact": false,
+                "rat": "14912/25",
+                "time_base": "1/48000",
+                "ts": 28631040
+              },
+              "label": "audio",
+              "language": "",
+              "optimum_seg_dur": {
+                "float": 2.005333333333333,
+                "float_exact": false,
+                "rat": "752/375",
+                "time_base": "1/48000",
+                "ts": 96256
+              },
+              "rate": "48000",
+              "sources": [],
+              "start_time": {
+                "float": 0,
+                "float_exact": true,
+                "rat": "0",
+                "time_base": "1/48000",
+                "ts": 0
+              },
+              "time_base": "1/48000"
+            },
+            "video": {
+              "aspect_ratio": "16/9",
+              "bit_rate": 17784403,
+              "codec_name": "h264",
+              "codec_type": "video",
+              "default_for_media_type": true,
+              "disable_encoder_substitution_seg": false,
+              "duration": {
+                "float": 596.4583333333334,
+                "float_exact": false,
+                "rat": "14315/24",
+                "time_base": "1/19200",
+                "ts": 11452000
+              },
+              "hdr": null,
+              "height": 2160,
+              "label": "video",
+              "language": "",
+              "nb_frames": 1,
+              "optimum_seg_dur": {
+                "float": 2,
+                "float_exact": true,
+                "rat": "2",
+                "time_base": "1/19200",
+                "ts": 38400
+              },
+              "rate": "24",
+              "sources": [],
+              "start_time": {
+                "float": 0,
+                "float_exact": true,
+                "rat": "0",
+                "time_base": "1/19200",
+                "ts": 0
+              },
+              "time_base": "1/19200",
+              "width": 3840
+            }
+          }
+        },
+        "mez_prep_specs": {
+          "audio": {
+            "billing_items": [
+              {
+                "created_at": "2025-05-29T16:06:59.798874845Z",
+                "creation_request_id": "02b14168-8257-4424-9793-964bdc3418f7",
+                "description": "Transcode for stream 'audio', master variant 'default'",
+                "dest_bitrate": 384000,
+                "dest_channels": 6,
+                "dest_codec": "aac",
+                "dest_count": 1,
+                "dest_media_type": "audio",
+                "dest_rate": "48000",
+                "source_bitrate": 437605,
+                "source_channels": 6,
+                "source_codec": "aac",
+                "source_count": 1,
+                "source_duration_rat": "357877/600",
+                "source_media_type": "audio",
+                "source_rate": "48000",
+                "type": "ingest"
+              }
+            ],
+            "bit_rate": 384000,
+            "channel_count": 6,
+            "channel_layout": "5.1",
+            "default_for_media_type": true,
+            "disable_encoder_substitution_mez": false,
+            "disable_encoder_substitution_seg": false,
+            "encoding": "aac",
+            "expected_final_timebase": "1/48000",
+            "label": "audio",
+            "language": "",
+            "lro_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p",
+            "mapping_info": "",
+            "media_type": "audio",
+            "mez_count": 20,
+            "name": "audio",
+            "part_hashes": [
+              "hqpeBeMzhekQouPdZXG8u6DN7Qh32oJdih15wC347CyzkQtyFbfs",
+              "hqpePXsvvnFAuDvu576KLT4pd2EZYAJjhd5wY5Fb9XmqwBTwSaSH",
+              "hqpeGPW1Pkp6JSCErPG25KRyKMPjTk5HsHopWb1mJGhc2NfJqsi5",
+              "hqpeGBUGF4ckpjMT8sNCAq9eEXczifJ151qtfChLj48rZApmD2qb",
+              "hqpe4hEHVLBgNzBVevLm12QY2D5SMJeUo4bPGuRLmt5zZebNWiKw",
+              "hqpeDsazNdz8kShCBoTUevZJwEU22bzdYPWQEygNTbsM2GhLGo65",
+              "hqpeG2z97d4jkATCBkNztZ4JoCVT8hFas7DR7XMzUHJF58G5NX3K",
+              "hqpeFoYNZVWMZaSB3KhAxzt3ci5BgY3HH5rsLapD4kDuh4Ce2y2u",
+              "hqpe2swK36zeSsLSqq7zKEPsiX6yd9fnCV7hwHkXnS9pBiai6hem",
+              "hqpeP4Jz3L2j8nmHzHmcrALozum9WvkMsDGCn4DSsYbAxKmmgYy2",
+              "hqpeLB7m2G6RR28V1yUBXaN2qVqxFeNJerVrrQ6rFJince5Jr4v1",
+              "hqpe5H7FW2Zwj5KmdTMxieYmspn2oq7rGg4r7n6sYg8chPA9u6Xf",
+              "hqpemzDbo5HvmD3T9YTBHxeGApBvNA9gA99yaaLqtHU5Aa9dBED",
+              "hqpeDAnfieM1fvpyTNNusmBm7Cf8cKHLDE9boN8HSExPBgagZYn9",
+              "hqpeFsR6mLU2AExdvp9sNJP8huZttroYd6kpmyG5fvi1Vr2TqJP7",
+              "hqpeQDLPBuJLHPBmUJ9CDAHPURE6fQJq5SF7sAtHbTXEyg5gRQb7",
+              "hqpe796UETuMn731CxHcAGZMSVS1XwyyFkoRWKWnz8rQ8SkKjc1j",
+              "hqpe4RLWdidsGfN7hZ7jHr1UMjfMmVSgd2XEVdg68qRqd2x2RtSZ",
+              "hqpeCwo5p25gMNdf8R87c1gUpWBejFiuSdnHuwcFgAiFcd39kDk1",
+              "hqpe9X7vcEyaj1F47djUt488m2mtrafFvWuXWH99TQVrQ5FfzuBy"
+            ],
+            "ready": true,
+            "seg_dur": {
+              "float": 2.005333333333333,
+              "float_exact": false,
+              "rat": "752/375",
+              "time_base": "1/48000",
+              "ts": 96256
+            },
+            "segs_per_mez": 15,
+            "source_sample_rate": 48000,
+            "source_streams": [
+              {
+                "files_api_path": "bunny_video.mov",
+                "source_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+                "stream_index": 2
+              }
+            ],
+            "source_timebase": "1/48000",
+            "store_clear": false,
+            "target_sample_rate": 48000,
+            "target_timebase": "1/48000"
+          },
+          "video": {
+            "billing_items": [
+              {
+                "created_at": "2025-05-29T16:06:59.798690196Z",
+                "creation_request_id": "02b14168-8257-4424-9793-964bdc3418f7",
+                "description": "Transcode for stream 'video', master variant 'default'",
+                "dest_bitrate": 20000000,
+                "dest_codec": "h264",
+                "dest_count": 1,
+                "dest_height": 2160,
+                "dest_media_type": "video",
+                "dest_rate": "24",
+                "dest_width": 3840,
+                "source_bitrate": 9282573,
+                "source_codec": "h264",
+                "source_count": 1,
+                "source_duration_rat": "14315/24",
+                "source_height": 1080,
+                "source_media_type": "video",
+                "source_rate": "24",
+                "source_width": 1920,
+                "type": "ingest"
+              }
+            ],
+            "bit_depth": 0,
+            "bit_rate": 20000000,
+            "default_for_media_type": true,
+            "disable_encoder_substitution_mez": false,
+            "disable_encoder_substitution_seg": false,
+            "encoding": "h264",
+            "expected_final_timebase": "1/19200",
+            "hdr": null,
+            "height": 2160,
+            "key_frame_interval": 48,
+            "label": "video",
+            "language": "",
+            "lro_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+            "mapping_info": "",
+            "media_type": "video",
+            "mez_count": 20,
+            "name": "video",
+            "part_hashes": [
+              "hqpe89aeR7MExJbRLRx6DMzwvDXQtoyMo4ZLtt19pbKtGh39Hb49M",
+              "hqpeaEnpm36Gn6SubmVf7emiGG4MFNS3V25ZaxD2uovaUc11E6Wc7",
+              "hqpeUMp1WxNu5TTf1RUGNRCopNgg5D1EBmCFD6UcTuTRqLF3bHtcf",
+              "hqpe2AzjMVFJ9FbhcK4tSduYT6MyU6bteiebMmModPPUVnKuDq22BG",
+              "hqpeuHL9N9cw716MYFUP3aoMhJEk3TsmcvpiFbzeJ5yVEEKuPvihd",
+              "hqpe28FgatNA8FE2nfzwGsgQVFMwGfr2usRVmAbvrvNWNMJ2RU14Z4",
+              "hqpe2b41o83SonvFGratyqTypEXV4f3D9p7ZaeDtdYssc6nN2UUKL3",
+              "hqpe2NfBgDdpt2Cn2mGyoS2WuSgQUW48DhUvvcqkWxfwpkQYpCdLaB",
+              "hqpeP626DTNP9qP2V6YyAyY8Uk5sh6RR58jg6wxrsdAb1Kn8nBk1P",
+              "hqpesRCj4cKrQ5GBbZD33QthiUH9NKSpaEG4vLZUJVqhvvVgHQgd5",
+              "hqpeDB2Zbie1Pzz2q7384cz4DdDAMK5QPBzjCqsTHs4ZMKxqnEmZS",
+              "hqpeFPDXPmacoeNPjP7PbijCcdQkNfJfhjESJcv2z86SEerbvmanU",
+              "hqpefXYHmRe7Hch3CzVXB5NX4KkcuggE5ewMsFvqgqh8CMyyRnify",
+              "hqpefoegYfbTdZBh1q1447kEH2ak9WHx2eibAFJp9LJR99kWoe3nW",
+              "hqpeQL2ubk4woqk5FBGtvcj5E6fM4pgasCufimZRcMjEdoUwqCttn",
+              "hqpeDroMXFUjdEfQES2zRYztWRs481SYdJtYMJjmFNpvP1R6ECa4f",
+              "hqpeTqYxK9MdtecBEpFpxrZftABwJaw3HMrShAC6sPi17y4ctVyqq",
+              "hqpe2a5cHZdQsEZ45yZHp6Rz3w2mGuMdCRJZ1RGFnAu4ohLQ66NzPj",
+              "hqpe2Li3R6B2nXXHPRRb2hoDqE5EqpGZ1Y6FwWV4TyarB8cgw8Xy1a",
+              "hqpeAZF7zKKZUSu5WSXxYZaNR2VUTE3wtR1iK47NbMAAmbgYGAfhz"
+            ],
+            "ready": true,
+            "rotate": 0,
+            "seg_dur": {
+              "float": 2,
+              "float_exact": true,
+              "rat": "2",
+              "time_base": "1/2400",
+              "ts": 4800
+            },
+            "segs_per_mez": 15,
+            "source_frame_rate": "24",
+            "source_streams": [
+              {
+                "files_api_path": "bunny_video.mov",
+                "source_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+                "stream_index": 0
+              }
+            ],
+            "source_timebase": "1/2400",
+            "store_clear": false,
+            "target_frame_rate": null,
+            "target_timebase": "1/2400",
+            "width": 3840
+          }
+        },
+        "offer_as_live": false,
+        "offer_live_seg_count": 0,
+        "play_mode": null,
+        "playout": {
+          "drm_keys": {
+            "04d7c4c75b3cd9656452f8c818f2bc33": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "dUDQXAC94gNNGC1w7DEWeAgkQMfkd+MESJNUjQAAABAECP+zgOfiIC9JSLKKKEVkhRSx2TUvpo6UqAE0aRQtA8j4CUB08bu/XLY8LFlgcT8iBhZiDSseLyV7A7W4wEIFEfvZcQ4pEk00h7Wle4mAkv0/AzZxh5cETNKzYGUx0GJXC8Lc0YPlCKfGstV30F1bRH5JF/WYVS+kA1eR8KmUZppGlYyqFtFEuCG9zQu3tVfHCqkDioQPZuzS9MWpfOwANqP6DI8tLloZbNGAipv94qO/M4j78e7VtbiEzHZbGMg4FxSEmszhJp1YYyV3kI8rOOO3WfiNe8MKM1DyCEhn0exuS9rcaiqSYEPmT02Ek/fPAe/a60vNmQ21ZiEHoNN6+6YPBERzKfZtL4nMB+9ueHliY/j/e7049nZa3HpfxE9uESCeteKbA78hk7WROi8hXItzWUTEab874A/GJbGxIAHHykX1EA7Irler5YSNoks4AzReAo5ivjZeMCEyZ/iYI34YVKF8w4A+WTl8tTqimZPOj95dMpvOCwdHVW6Ory2EAHtDs34dkn2fKiW9JlXITl+g+fnTnZcT4lkgcLODAAR9f1eV7v5MZ0FHR/Ei4iW3BqCYThFCFqfKzPB57bqvksu+dmMtNXRcQKMDk5C5uW9I3vUKR+Hm+Ng/uuZDPJvICpKAJsTPTTQl0vCWQuBQNrnDE5Y1voq4PxggrgklKOJ1RdF0fDXGSNVvRX2w0aaoFZMkisAJn57M0bbALWUVmeGJMcSuBftYEfVciHI1lWIy+yqJBONILUfMf4ckQurVFeihuN1md10+ppzOQ3QYRtd00TdPOOAN1P7502GHZ8ZuaGBQSqCFupofmSSmAMjlAPZ7bkyClSjqVYY7Ox3RVYTO3PM3yuJees68uCyDckvEzRNPd7TjrZ3b3y2cir+F",
+              "encryption": "cgck"
+            },
+            "12e8883f70c930b27d74e815d231b3e3": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "qCumxqoz2NtaYT4pELNvE3wu+oNhdyds0i5nDQAAABAEBvHnTpmNrCFgY8GHuj/8rn0yll9AzRfZ8G50fA92Bf3BYQ00Q3vUbWFaGWLpNivUGHKGaXqoWJEdM8US5T/a27HwoE3ixxGTjhfGWwDDwY74E/z0gvkfqQDUfwzekgOYDa8wMC7JGmjDAUeaRwxXK7dSnwCDfezlFCmUEVWEwUYx6RRkLnbakynv8x2TtO0KD/7eGHctuPEI6LsG6EaXqbpLT0ePP+BdymTuw149PHQ27fmXaXvHHeZfA0kZVwPEGAOO6LwR8j4auDnrwAbW2DihZ9Gty+803rtH0iBDkXi4iYFo4VHhr8EDV8CCeRzXGEorYFO6yD4n759qkJ75m2J5T4F00gpa89AXyRQi4y1JGZ+kGPiEtgHMu4XdiO9kFtMZWLIpgCbDIigcFl+pgmwuEBZjALFX17rbYMAVg0Fu1WUS1ab3p7mZxapLaAXeAlTZ+T5/JfSL2obRhJd89/d8KreCBVkowW0aPGRG6C6PyrtUUH6PUpxbGfHKorB1Ae5mT6OpPic4cO348g/+BYR+jo/KS/ScxSI5HEaJxvJueKuHdQjE2Zd+qlorXgeXF5rXis34FPuUfWww0XUxKpQ9Qm51dC/07+JfA/bCa6bvnIaxtJglV02xH9HvkGZ2ATFBi7nE749PMMR8hcd9wilxfq5fvaP4rRL/1DkWjKnnH931F0tSUtYXL6S3p04dGHSorZ7Q4e+whDobMyis2ebZ/cWRWLFwFLG/dG4j80rtR/P+dhGblxpaoI7W7TRhELWIJ2tjk3gtXkGXuFo+pBEGxNm2apvdsSO3lZ7yNyECpTKpnM6O2BB4vp91tK+xAu3Tz0wd6Mkwj66KuSSIgaUy7YNTw2UxjzN4Wmhl3vW9pGwKw3SpXSPIM4+tU8KN",
+              "encryption": "cgck"
+            },
+            "666a95b08735bc1c81afba3870fb0b3a": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "dpWlrUlIm3MjlbRANf0qlP0rXoujlH+rTdWBXwAAABAEBc3Z2THIJDqxk6CTV5EWiPzw5CBjL2LGqbBgqvxBVSSQEwig5/HQTtK7RBNWO5V5FqzSvqq+y6WyBf4EGp+wc/Hbizn1ZabZcqXaaHyLOAw0P50IhSAZstqg4GkO3lp3AUEyHdB/LDOvTtHpf++IIBNBqdNOuqMf1jbwvOH8kyViJYGvAxXGQ+MUCd1gDNSWCEtaaNa+LUf8LRQj9cyVtPuE19Xge2LQGLzk5RfSmlua5BnWolvxnLXd6oVRPeJPEywrPYASRTiipWrsHH6XM/d3bW5gKLUUPNK/m6kexTO8LFYceOwQrguZe9j6Q/yXBXNgVMpRiYi66dF7ylbwYZ1T2xkYlnxonwOjT4M6a9xnmHlQ2annWVIclo3El3fNEcoyFYvOaCjxEuJkqSpvVrEadc3oA0ymXCXDpB8sjoyOJoYIG/XZwQqDlVQG6il9BLYMbBgrQB926m5lD7pFNA+gkmjd392gGHufAKWs7CH67YytyHOTpr3dJToCa/sQFMPVQWKEuYsNgpAa69dY25XQdnwJ5fbG4yFk1MrqPePDxLMkYErWZZgLax++2hezD03Lig1vQRAn1ca9cQ2qpRFMDF/TwwZOM0HItUsV2mABaBWkae8UfaFMcg4H6E0SAw0WWJEbpTK2vMxxsUM222ZVeVIafB6XdpzifRuulw+6GvCFG5xXCEEW78ABWlkBEI2RriGoDQqkiEqs9JoDeSvC91hollVwj+6Fby9Vbgg2pJGaOeeysRPTNDCQHtJyGBUAV7pp7OoIy4+94EWOiT9AA8BsAu5beT7lHaTPr1Pfd1hM3vMLqv3yE0b4fzeOEtgkIeJZv+co5BbOdyTNk44mAY9OAbRfx57u/Dp6HCM6PRr/bTXca5RXpXRK9CtK",
+              "encryption": "cgck"
+            },
+            "82a7752f741d448f5e947993ad6e71fa": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "7y7KdpumQ7TS/HPIDeYLsV3BF2RbkeU9+lSTAwAAABAECRJ6dpUrew/om3uFfe8TwbXeaB0GDkMIJvLnHt7RcDmV7Qy027gdQ4jwtMaJyvPMCQvETxHDDs5u7c7eC7OckN5VtMKegVyPqAncVfdH0rcZxZiwvJQ5fyF4svMeAXORF6yrrhmaV6Gj4SeGo3fHY7osTER09y78MZNEPWSLyhneCT+3JpjYqcXpqIp2+h5vCChnVyQnMaIeCyxsQOMTZHk8BKzz9GUcsHtj/8z2C8UH8eAJ/2t6x/K4qbyq91G3DMnnkHzwMQHuWezNKLEiaukly4ZX7GmevZLVgPPQlRBnB1ugBHuvnKp+FgSnbi7rFk77Nst8nYZZ2YwhOfkSU19bhiQWtFMyfRw7RGtRUFxaxWRqlmNbVIitWpxL48eLFshn4yRASTYrOVo+l6r3rCFm08NMq0kWKleOLg1Hvx2YXJuacRcnlYlYUMtkTEgJFx2cv5bDFFicKLwxALuy/HeCF4F3xjbLcR8NbZbYP/FmJamUvao0PRQ3Dzo//b5SCO9CNcAMcPFKXLjNjrspr2quinTU4lW0LH2KVZ89MkVE9p1erdZrX02FGLHFHn+MDcJKkYLP3eXhaFaeXoymSndJETLBL28hCn1zvaKcefIxUig8Ax+ExkX1O1Devav3AWPM7McAkWSKyuMLKmWXYsbk0enGZfIDhkqyixexA+cXHeTJB4XUCUkW5QQvb1h3F4+HSPXq75qwUFHqbOdnFXkUHmZo+OdRNM9A0vdQnhWOdZOUFEjYP6AtqGJ405/ZDme+/qgTAhKtuKnqW0ldFGIh3SdWqKI/c16Zhe3S2bMk25NEbUwGNmIsMsRHQfidDcgffKm27uRVNm1+ceirjAujUYBVTyy24yk+FW6Lx7BF/3ADFsEGilc3vHUEQmur",
+              "encryption": "cgck"
+            },
+            "9460bea4364da6515e64761ed8a6fbd5": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "eEbF5WFGJZ7dB/sG8bXB7yx72dIyJIvMjW3ATgAAABAEGRhCszD2HyPq9QQayq+qzHkKzYQozCF0HsaHkSmrrmAU6F6yom8hudLTAnIpMfr2BGeYi1vmOIKi96fH6BEN+V3vIpYVVWcNa30OZg/bFMSFUxZ5x+Ro4ujxM4r+ayb1B6oERWQUHw9VZROBlNz/GOtKrxNHi04swO4r29nCZNDrqhfrYj2hiuElQpRw9EQlBpvADO8RjXclgrFDiv6jpdfQ9rux6MHa60nrRDXEvKPNZsWkB0nC9IAmYjYUZXGSDUVNBt495TEzpqzXH4rVHSFh0SYpePB7eAFpIClu88mATYgou35V3ErLBMXbl4P7FynxlFhCpi1yjMD6XG2aWL6vn92X9vnq/6JeW3m9q4+NujZzMLEPkLJQCjwgOt8wAQD5tN89Sxe3iHnBHNRVN/oHqrkGE4yT+GyPvp+qv/SlQQB2cqsBBiepAUirnLpoGXRXzWU6wuqDEdV3Ydc4O1qVjI2PeZLGL+uGUTgIY+5iO8P4aWMzTpyuYHwp29APChfkkW2TJ1Whufc11L1nU1Fie8VTWUNqd3DX2TxYIuaBX15a38aV3fOp1DC44QmMAfoJqQ0UsTe82vmKllp4CbVFKAImNlo6ahHH+jZS54uUbLVPKLKWsG+LloAHbaz2BvB9YqSwKt2qv5+i4mfT07KY3ZbaZv6/WDW8pFVqo0p4jTKBzK1HrMqoISvRdxSQEM1dHHffCp6ZiRsJUQtlShUZGM9ELzX+1lsqkplqifKQ7tEzLuZak89nZFljjrJWCzqtX/+KPuEiQRQxtk7tNqgyLlvq9iyCsoTZMtR9fbQplh5QPaM4Ylyu5W+8udj9GOgzYsKiHLXs4sRnxONIPCFEQboXe0r9FmP5d9IY1jmopkhLtWHT3XnXreb2dE2X",
+              "encryption": "cgck"
+            },
+            "d779bfa7c4038340520215e7968dc4c6": {
+              ".": {
+                "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+              },
+              "/": "./blob",
+              "data": "yvLsHLSKbIsDdG4nCToCg9e1UeDPKf8PEgFJ+gAAABAEBFFUlE18it7twX64NWoWdcvbnJU7UXO6vur1FNCTTttnahpCGqsMyFU5KeMr//qBBojWZx+WchlQdito1WYCuRGOOVdV8l2nNcgJ3VEuW6cHu423I308v7AIIPgLuQQIBzDCbfTmRR2R55lXT8TB7wHrtM0F76sGS7FNBI8Z6s1j8SJQFujYB+OGI/k2f75aFQw+/M6UL25JBNKXOu7ub8JZ2zbDRtlxsluXCf1ZyfbkO66RYqneSypJz3GcZH3LGFtezITdjbmTCX2ZUql67NT2slwY4yo0YG36pq0GowcQ6W+EmWbkJhoo2hyIKnJxDOO8iclbsXdxDbfmb8B+p7yS46cN/OBLEcNJj3EYk42INKvEXmRzIK4ZdN6ZmjFPCkPCFU68BSRkXxiSEzKovKDlepwLnsXk+5icGmSIdImhi3CkAjQpyLdMQZ1lHpLmA8Yi6Mb0ohH8FZRoODjmJDLPBRqnH9830KGVEPminSUegAyeN2WQQK6Nyi3iPcAHF6ISZlJ+GwTbcnWZPYsW0/jA7jnmKFCHIQqoI7dWWb+ux+w1/ytpDDIrtpUpiRrOFjHD1r/jVwFH3vdAF14kNeDvBUC8RSjDg0zao40LgPenVwx7fdzQJZ0oooHB6Ls6FZWuGQemq/8/saKZn0m10pN2QMYgOqXGrJwOSkFwAZaqEChic3mkVPWwDBuWI51aAxJEPanXBdPh0TfsDWo1szvJ/heOaOzoRt9uvzK4Hu9mvJKc1rCxvopmIq4rOlEoC11rZm6nz5Fo8OHx/EvzYXeVSR7Y0D71PTWOvtRn5KmpTaeXqtwVCdDgdbJ60ANlB693Bbs2si3A7WwaL8CsWDfyaJa8Bp7SZGEcdl+JY0YPzD05tCUSNgdOlEseEVsy",
+              "encryption": "cgck"
+            }
+          },
+          "playout_formats": {
+            "dash-widevine": {
+              "drm": {
+                "content_id": "",
+                "enc_scheme_name": "cenc",
+                "license_servers": [],
+                "type": "DrmWidevine"
+              },
+              "protocol": {
+                "min_buffer_length": 2,
+                "type": "ProtoDash"
+              }
+            },
+            "hls-aes128": {
+              "drm": {
+                "enc_scheme_name": "aes-128",
+                "type": "DrmAes128"
+              },
+              "protocol": {
+                "type": "ProtoHls"
+              }
+            },
+            "hls-sample-aes": {
+              "drm": {
+                "enc_scheme_name": "cbcs",
+                "type": "DrmSampleAes"
+              },
+              "protocol": {
+                "type": "ProtoHls"
+              }
+            }
+          },
+          "streams": {
+            "audio": {
+              "encryption_schemes": {
+                "aes-128": {
+                  "iv": "85d7744a26ac8a8cf514cf51c914025f",
+                  "key_id": "12e8883f70c930b27d74e815d231b3e3",
+                  "type": "EncSchemeAes128"
+                },
+                "cbcs": {
+                  "iv": "7191a64d59f588ae8f53a50509fd056e",
+                  "key_id": "666a95b08735bc1c81afba3870fb0b3a",
+                  "type": "EncSchemeCbcs"
+                },
+                "cenc": {
+                  "iv": "30fc1bc23af452f4aa99eddce6a1157e",
+                  "key_id": "d779bfa7c4038340520215e7968dc4c6",
+                  "type": "EncSchemeCenc"
+                }
+              },
+              "representations": {
+                "audioaudio_aac@384000": {
+                  "bit_rate": 384000,
+                  "codec": "aac",
+                  "codec_desc": "",
+                  "media_struct_stream_key": "audio",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p",
+                  "transcode_matches_rep": true,
+                  "type": "RepAudio"
+                }
+              }
+            },
+            "video": {
+              "encryption_schemes": {
+                "aes-128": {
+                  "iv": "206704fd3fe1313ad8c5c671734f3ede",
+                  "key_id": "9460bea4364da6515e64761ed8a6fbd5",
+                  "type": "EncSchemeAes128"
+                },
+                "cbcs": {
+                  "iv": "03efe06321dd4f2375ef3eb991b2f880",
+                  "key_id": "82a7752f741d448f5e947993ad6e71fa",
+                  "type": "EncSchemeCbcs"
+                },
+                "cenc": {
+                  "iv": "904b8b5ca99f405d8b094be43e5818e7",
+                  "key_id": "04d7c4c75b3cd9656452f8c818f2bc33",
+                  "type": "EncSchemeCenc"
+                }
+              },
+              "representations": {
+                "videovideo_1280x720_h264@4500000": {
+                  "bit_rate": 4500000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 720,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 1280
+                },
+                "videovideo_1920x1080_h264@9500000": {
+                  "bit_rate": 9500000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 1080,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 1920
+                },
+                "videovideo_3840x2160_h264@20000000": {
+                  "bit_rate": 20000000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 2160,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": true,
+                  "type": "RepVideo",
+                  "width": 3840
+                },
+                "videovideo_640x360_h264@520000": {
+                  "bit_rate": 520000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 360,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 640
+                },
+                "videovideo_640x360_h264@810000": {
+                  "bit_rate": 810000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 360,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 640
+                },
+                "videovideo_768x432_h264@1100000": {
+                  "bit_rate": 1100000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 432,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 768
+                },
+                "videovideo_960x540_h264@2000000": {
+                  "bit_rate": 2000000,
+                  "codec": "h264",
+                  "codec_desc": "",
+                  "height": 540,
+                  "media_struct_stream_key": "video",
+                  "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                  "transcode_matches_rep": false,
+                  "type": "RepVideo",
+                  "width": 960
+                }
+              }
+            }
+          }
+        },
+        "prod_master_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+        "prod_master_var_key": "default",
+        "ready": true,
+        "simple_watermark": null,
+        "store_clear": false
+      }
+    }
+  },
+  "commit": {
+    "author": "C71056bf3-77aa-4187-a96c-261263bdec90",
+    "author_address": "0x65750a8915cd55df6618a137db28e9e5669142c5",
+    "message": "Finalize ABR mezzanine",
+    "timestamp": "2025-05-29T16:17:05.117Z"
+  },
+  "eluv.caps.ikms27hsDr6QtmWnJKVFkNzroSGEgjjq": "BFMqAu7Jsl/yZiG3/6B4i0qaUPq3kohPMG20iX4D3g2Yy69eqV8zFimt55MJNBbDgLZ1SJSVKt+udLwhkRuOYzJfc0Ru+ClBDuYR4qK20mODpgDXSIZTNGdYjsGWVTARfxZksHUaZn4ZMdRYXdl6m08lyW4d3GMHOFAPi7pCHL8fQOF83RSB+o0kNN6uYcsrf8yvtU8b1DBxX1thiE/w8tIj69Sjh8uByc+YYANxKhEPuq61DT8OyorllplXDscX//MMLE/Nwf63ftOXd+F+KuZROM/fwJvWqSdmOrmGoRID7o4exLhy5F6uoEPYLw11t6yg+ylqt67FcTKVGTlUmp5SHgnsavCwcqzXwzTPoh0rOgeH6pSY1gQUGEzD5kTo9xsWekx3G5+kh1lNUY4aLhJ1fWZ4Z3DpuXQVG3ejwC33i6dlHm3Z19su5LVGDJ+Izkh3KZKSZ3h8ziFZ8qwNSWpDlJk4Ro+yRc09ZDL6i3p/xw8wH8+2aXHGWdlsaWU4dup5ZnK9QMKnweVbg2VzVJIDV6SeCrZBvMlyNpu5hN6WGlzPAPNw8X4soBvvoChFGLC9eYwa4hIO6SyyTBxGWto=",
+  "eluv.caps.iusr2QyuogRWvW9C5XUfc3CXoCPiYbAC": "BDtfR+kZWT5qEgcSIkbm8lLE4B8JUikIxmBdqnR35bNdKmsp1tDNM2vTG9XenCMQ1pNaf3QCxudpcvlXJSjTmREbmdrAflLlvZE7g+yX0y6UZUIhbipGQjEy31BZ5NFqrYZhkatEjArYbq+qnWFPB2NfBemAuZsgnHe2D8dD8mStNHpwryUHjUKVs+10/D4tgTJBzIpKN1BQCX3bBdrdTbyI/Cruzt8/umLz5RfkmtiBdIVWqtfuGETLoHGASGRdyTmZWLBS9X/jEliWrbHDNLZnuRr3HoxsWess8tLESxw8qYNqU836/geUs4keSRoE3Sx7O711WQkzpXoCUvC7Q6swcuZAdaA/fLr5kbtgf7NlsctmJA0A3rnNADzVffBN4GtvxPjIiRAd/xL82wN7Er7yy+Ql59M/uEhjQdHg7da+RY9YNrDh1+j3P4bzEGknU1GesCTdNndDhVPpOfuQbE+XRCjoFG8TEmXajSYK37Qi/cc6IbHjJlZrvX8h1vwRTF0rDehw9vbLATX3uaFic4GOnRCs1Ya0p5qVcdORnc95mrAM6CsyghSvlf1UwK6JpIlLAYMQMWyLiVEvCgIbENE=",
+  "elv": {
+    "crypt": {
+      "drm": {
+        "fps": {
+          "cert": "MIIExzCCA6+gAwIBAgIIHyfkXhxLHC4wDQYJKoZIhvcNAQEFBQAwfzELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFwcGxlIEluYy4xJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MTMwMQYDVQQDDCpBcHBsZSBLZXkgU2VydmljZXMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMjAwOTEyMDMzMjI0WhcNMjIwOTEzMDMzMjI0WjBgMQswCQYDVQQGEwJVUzETMBEGA1UECgwKRWx1dmlvIEluYzETMBEGA1UECwwKMktIOEtDM01NWDEnMCUGA1UEAwweRmFpclBsYXkgU3RyZWFtaW5nOiBFbHV2aW8gSW5jMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDslbBURB6gj07g7VrS7Ojixe7FNZOupomcZt+mtMvyavjg7X7/T4RccmKUQxOoMLKCJcQ6WrdHhIpN8+bciq7lr0mNzaN467zREiUNYOpkVPi13sJLieY2m2MEPOQTbIl52Cu1YyH+4/g1dKPmeguSnzZRo36jsCGHlJBjHq0jkQIDAQABo4IB6DCCAeQwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRj5EdUy4VxWUYsg6zMRDFkZwMsvjCB4gYDVR0gBIHaMIHXMIHUBgkqhkiG92NkBQEwgcYwgcMGCCsGAQUFBwICMIG2DIGzUmVsaWFuY2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBieSBhbnkgcGFydHkgYXNzdW1lcyBhY2NlcHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxpY2FibGUgc3RhbmRhcmQgdGVybXMgYW5kIGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0aWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRpZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVtZW50cy4wNQYDVR0fBC4wLDAqoCigJoYkaHR0cDovL2NybC5hcHBsZS5jb20va2V5c2VydmljZXMuY3JsMB0GA1UdDgQWBBR4jerseBHEUDC7mU+NQuIzZqHRFDAOBgNVHQ8BAf8EBAMCBSAwOAYLKoZIhvdjZAYNAQMBAf8EJgFuNnNkbHQ2OXFuc3l6eXp5bWFzdmdudGthbWd2bGE1Y212YzdpMC4GCyqGSIb3Y2QGDQEEAQH/BBwBd252bHhlbGV1Y3Vpb2JyZW4yeHZlZmV6N2Y5MA0GCSqGSIb3DQEBBQUAA4IBAQBM17YYquw0soDPAadr1aIM6iC6BQ/kOGYu3y/6AlrwYgAQNFy8DjsQUoqlQWFuA0sigp57bTUymkXEBf9yhUmXXiPafGjbxzsPF5SPFLIciolWbxRCB153L1a/Vh2wg3rhf4IvAZuJpnml6SSg5SjD19bN+gD7zrtp3yWKBKuarLSjDvVIB1SoxEToBs3glAEqoBiA2eZjikBA0aBlbvjUF2gqOmZjZJ7dmG1Tos2Zd4SdGL6ltSpKUeSGSxyv41aqF83vNpymNJmey2t2kPPtC7mt0LM32Ift3AkAl8Za9JbV/pOnc95oAfPhVTOGOI+u2BuB2qaKWjqHwkfqCz4A"
+        },
+        "kids": {
+          "04d7c4c75b3cd9656452f8c818f2bc33": "BFpwU9Nfksf0NLI+oshEfpT6nLPnEbXiUM4fbKrPwpryHrnQ/DtqqG0RhB+C6Dyxudjgg4L1xdnRzUqL4Fd0KoevOes5+Nt+6B77piAGO5BxKOdkjaZjfWTQsfIP+zjZqRA97Gw8hspfUMmvxOifYqvhgh/gvvYu6xQxI9Dle+q+HwZ3JsAlduSZN+iwvPPSdvm/jWFZGVI7rFBrk4xN8avWF6Wr9EP9ANG1zxApShn0TDLGvQMk1wHtXLRfs+bu0q/dJy9JaKzN2rtPg9UupNmrO0k7afQYmEbWaGt47c9gm2pc1NMNdt62jeiP77JhC9+S7KYkgq+aS0EMOh0eyEM=",
+          "12e8883f70c930b27d74e815d231b3e3": "BJapHFKo5dtVU2qmFbVNXJx2BD/TnycOpUADpCsUf/eAM/a2QXXr+EyH1XVUalh1E4KMgBJSbLqwpnl6zvd+DHlr6WJFkcld9qXL5e+7s1LwVkSQ00dPSC0J6Kf3SlGqLCjiWP1Yl/yqxlSr/BTGiOH2NzSD91ssfQjPA1D20rwXd3Ft7r6P4i5K0abO5bM2irIPH6bW/0+avsTXvfJhLTLzTBIgrkpgTqqWlfxZOSgbcceL8JV5x30vBD4Og6bxEmOhgtpIHnU6AU4TikPwN8BnQI3rxMotXOTVElIpGDFndCX9SWA7hurk9Q5HdjLif3YniG02YU5bTzeGnxbCE+g=",
+          "666a95b08735bc1c81afba3870fb0b3a": "BCxhstdv75s83Fbh98JMp8cYf8e67vSH6trQsfk7lmPko9cLNgzwRuXxXhttSf4V4Kd5CvHf3IkpQdhmR0/oiwhh/KitvHOBOED3xcrjKdk3qO2tLvHG8GCCcPa39t+inR9aDbZrJXOCzVB5ZCa4BeqwDv3vLXGsGFh1wqEESbL6Y0pdVlbc/2rWtNEY9xvBxjQAnCz9PJGmMe8TsAeB9e1w4mgvagkKBqsj0D7Z8kPWhe7UBaz7Cj+r+/vIAQClNUWeayScCU4gxLzDJkFLqBo+6cOidd/ksd2dzAMiIZrfYs364+VS2MeFH+JnM1WmozCAd5j2YSOvWP8cTp0Lyi0=",
+          "82a7752f741d448f5e947993ad6e71fa": "BA5dhXhcIoaZBFA7sFx1MHmIClmubtAt2NzeD9wQozKgySolPlzarYDdLe0g2CSILJcjUKFJJdNryKsThnhka75anzcYHXQ73Eq4+j/HtFQqWspMMWw9n/qE+KTqrG8PSq5BdO2I0CN85ToKl2HAsGQqTAA5Ol8zyftHDvbvnaUw8RwQFkwFFG2Wo8/w1/9OUJVEf8++flog5/cEn1SSK9rfL4o97fxLho36Igx0wdj8fLa6S/xl443yZ4OqKZs3mINjuzsTr8oci0RrY7k6sLd+MIvg1EyGWTJjNgDMv7XDOcniIfTWrCYFUzICNtuie135up4iuyEDzxTolYdyjg0=",
+          "9460bea4364da6515e64761ed8a6fbd5": "BLTe1yPW6m8fZG7OEHyWRxdlKp+yB7ISwH74oh6/MIQe/fM4kL1X/3R1GOGqFo+X10Ch9q2a5Fd8vTQs9bSLrcUbhGxAC9KKmx05AImt7ypEzFyjeq0iSv4zkjIPQrVgS3nGHLxj8EG8NSiG72K0KiOLnj77VRsGUwLykxbx9vo7FnYV4CYbe9kegyTFYGgk4RMvLBrrGN03/IXsIcrwXCM2PHgI8vpULyYjctKhihFnkVZRR9pZXLCkr9qi6L0aSgptF+uPe9IciPo1GesORyKjtslvRWXP5d+z6TJOqAWUy4jb2kABu7sOXkfBnfaIxncmwXLxaVbrEZpRVxuAM0I=",
+          "d779bfa7c4038340520215e7968dc4c6": "BIEcv6vglMyP7Jr0ECI2EZwb+vz3oBYl+4PKxDreNpLZo2myEeZmPYoKSLffu2M+Rh09oNlk+94OReIatImZ9s8rSR9sRffiItFyLttJeXaWR24AojGxSbP0zvuE71SanoE9UC5pmt2nZrxElAKs9gCJiUIReC4ML21ThMzM1y7yRCN1362e1mSVPsFJUUIK9SQZQ7RyZ3+ZA6jr/Gks0cKJMh04IwYewWZ6SRMbFb3eJLiiFJ5dssvPDEEQm36JgBVGrjhaH3RpplBqRDADVD3gnmXtOOTzK72B8jBjEusr0GoXRRuFC8mraEKsZFiG+1CVs278ObpBrV2oYWvHtPA="
+        }
+      }
+    }
+  },
+  "lro_archive": {
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2": {
+      "desc": "stream: video, offering: default, variant: default, masterHash: hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+      "duration": 539472000000,
+      "duration_ms": 539472,
+      "end": "2025-05-29T16:16:48Z",
+      "key": "mezc.video.default.xcVideo.\"bunny_video.mov\".tqw__HSPvPHbZoTXDMCERMTu2hpKtULYUM6ht4QjW3s7HfWD3UHUb3a829BJZVDkdH27AUsaFWBxKhCEGvJ1PmnK",
+      "name": "MEZMAKER VIDEO (stream key: video)",
+      "progress": {
+        "percentage": 100
+      },
+      "run_state": "finished",
+      "start": "2025-05-29T16:07:48Z"
+    },
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p": {
+      "desc": "stream: audio, offering: default, variant: default, masterHash: hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+      "duration": 23708000000,
+      "duration_ms": 23708,
+      "end": "2025-05-29T16:08:12Z",
+      "key": "mezc.audio.default.xcAudio.\"bunny_video.mov\".tqw__HSPvPHbZoTXDMCERMTu2hpKtULYUM6ht4QjW3s7HfWD3UHUb3a829BJZVDkdH27AUsaFWBxKhCEGvJ1PmnK",
+      "name": "MEZMAKER AUDIO (stream key: audio)",
+      "progress": {
+        "percentage": 100
+      },
+      "run_state": "finished",
+      "start": "2025-05-29T16:07:48Z"
+    }
+  },
+  "lro_status": {
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2": {
+      "desc": "stream: video, offering: default, variant: default, masterHash: hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+      "duration": 539472000000,
+      "duration_ms": 539472,
+      "end": "2025-05-29T16:16:48Z",
+      "key": "mezc.video.default.xcVideo.\"bunny_video.mov\".tqw__HSPvPHbZoTXDMCERMTu2hpKtULYUM6ht4QjW3s7HfWD3UHUb3a829BJZVDkdH27AUsaFWBxKhCEGvJ1PmnK",
+      "name": "MEZMAKER VIDEO (stream key: video)",
+      "progress": {
+        "percentage": 100
+      },
+      "run_state": "finished",
+      "start": "2025-05-29T16:07:48Z"
+    },
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p": {
+      "desc": "stream: audio, offering: default, variant: default, masterHash: hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+      "duration": 23708000000,
+      "duration_ms": 23708,
+      "end": "2025-05-29T16:08:12Z",
+      "key": "mezc.audio.default.xcAudio.\"bunny_video.mov\".tqw__HSPvPHbZoTXDMCERMTu2hpKtULYUM6ht4QjW3s7HfWD3UHUb3a829BJZVDkdH27AUsaFWBxKhCEGvJ1PmnK",
+      "name": "MEZMAKER AUDIO (stream key: audio)",
+      "progress": {
+        "percentage": 100
+      },
+      "run_state": "finished",
+      "start": "2025-05-29T16:07:48Z"
+    }
+  },
+  "master": {
+    "hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+    "id": "iq__2NRg7gHEaVBH8zWcTSP7JjPwXFMY",
+    "name": "bunny_video",
+    "variant": "default"
+  },
+  "name": "bunny_video",
+  "offerings": {
+    "default": {
+      "audio_individual_drm_keys": false,
+      "drm_optional": false,
+      "entry_point_rat": null,
+      "exit_point_rat": null,
+      "image_watermark": null,
+      "json_patch": "",
+      "log": {
+        "entries": [],
+        "level": 3
+      },
+      "max_play_seconds": 0,
+      "media_struct": {
+        "duration_rat": "14912/25",
+        "label": "",
+        "start_time_rat": "0",
+        "streams": {
+          "audio": {
+            "bit_rate": 436039,
+            "channel_layout": "5.1",
+            "channels": 6,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "default_for_media_type": true,
+            "disable_encoder_substitution_seg": false,
+            "duration": {
+              "float": 596.48,
+              "float_exact": false,
+              "rat": "14912/25",
+              "time_base": "1/48000",
+              "ts": 28631040
+            },
+            "label": "audio",
+            "language": "",
+            "optimum_seg_dur": {
+              "float": 2.005333333333333,
+              "float_exact": false,
+              "rat": "752/375",
+              "time_base": "1/48000",
+              "ts": 96256
+            },
+            "rate": "48000",
+            "sources": [],
+            "start_time": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "time_base": "1/48000"
+          },
+          "video": {
+            "aspect_ratio": "16/9",
+            "bit_rate": 17784403,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "default_for_media_type": true,
+            "disable_encoder_substitution_seg": false,
+            "duration": {
+              "float": 596.4583333333334,
+              "float_exact": false,
+              "rat": "14315/24",
+              "time_base": "1/19200",
+              "ts": 11452000
+            },
+            "hdr": null,
+            "height": 2160,
+            "label": "video",
+            "language": "",
+            "nb_frames": 1,
+            "optimum_seg_dur": {
+              "float": 2,
+              "float_exact": true,
+              "rat": "2",
+              "time_base": "1/19200",
+              "ts": 38400
+            },
+            "rate": "24",
+            "sources": [],
+            "start_time": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "time_base": "1/19200",
+            "width": 3840
+          }
+        }
+      },
+      "mez_prep_specs": null,
+      "offer_as_live": false,
+      "offer_live_seg_count": 0,
+      "play_mode": null,
+      "playout": {
+        "drm_keys": {
+          "04d7c4c75b3cd9656452f8c818f2bc33": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "dUDQXAC94gNNGC1w7DEWeAgkQMfkd+MESJNUjQAAABAECP+zgOfiIC9JSLKKKEVkhRSx2TUvpo6UqAE0aRQtA8j4CUB08bu/XLY8LFlgcT8iBhZiDSseLyV7A7W4wEIFEfvZcQ4pEk00h7Wle4mAkv0/AzZxh5cETNKzYGUx0GJXC8Lc0YPlCKfGstV30F1bRH5JF/WYVS+kA1eR8KmUZppGlYyqFtFEuCG9zQu3tVfHCqkDioQPZuzS9MWpfOwANqP6DI8tLloZbNGAipv94qO/M4j78e7VtbiEzHZbGMg4FxSEmszhJp1YYyV3kI8rOOO3WfiNe8MKM1DyCEhn0exuS9rcaiqSYEPmT02Ek/fPAe/a60vNmQ21ZiEHoNN6+6YPBERzKfZtL4nMB+9ueHliY/j/e7049nZa3HpfxE9uESCeteKbA78hk7WROi8hXItzWUTEab874A/GJbGxIAHHykX1EA7Irler5YSNoks4AzReAo5ivjZeMCEyZ/iYI34YVKF8w4A+WTl8tTqimZPOj95dMpvOCwdHVW6Ory2EAHtDs34dkn2fKiW9JlXITl+g+fnTnZcT4lkgcLODAAR9f1eV7v5MZ0FHR/Ei4iW3BqCYThFCFqfKzPB57bqvksu+dmMtNXRcQKMDk5C5uW9I3vUKR+Hm+Ng/uuZDPJvICpKAJsTPTTQl0vCWQuBQNrnDE5Y1voq4PxggrgklKOJ1RdF0fDXGSNVvRX2w0aaoFZMkisAJn57M0bbALWUVmeGJMcSuBftYEfVciHI1lWIy+yqJBONILUfMf4ckQurVFeihuN1md10+ppzOQ3QYRtd00TdPOOAN1P7502GHZ8ZuaGBQSqCFupofmSSmAMjlAPZ7bkyClSjqVYY7Ox3RVYTO3PM3yuJees68uCyDckvEzRNPd7TjrZ3b3y2cir+F",
+            "encryption": "cgck"
+          },
+          "12e8883f70c930b27d74e815d231b3e3": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "qCumxqoz2NtaYT4pELNvE3wu+oNhdyds0i5nDQAAABAEBvHnTpmNrCFgY8GHuj/8rn0yll9AzRfZ8G50fA92Bf3BYQ00Q3vUbWFaGWLpNivUGHKGaXqoWJEdM8US5T/a27HwoE3ixxGTjhfGWwDDwY74E/z0gvkfqQDUfwzekgOYDa8wMC7JGmjDAUeaRwxXK7dSnwCDfezlFCmUEVWEwUYx6RRkLnbakynv8x2TtO0KD/7eGHctuPEI6LsG6EaXqbpLT0ePP+BdymTuw149PHQ27fmXaXvHHeZfA0kZVwPEGAOO6LwR8j4auDnrwAbW2DihZ9Gty+803rtH0iBDkXi4iYFo4VHhr8EDV8CCeRzXGEorYFO6yD4n759qkJ75m2J5T4F00gpa89AXyRQi4y1JGZ+kGPiEtgHMu4XdiO9kFtMZWLIpgCbDIigcFl+pgmwuEBZjALFX17rbYMAVg0Fu1WUS1ab3p7mZxapLaAXeAlTZ+T5/JfSL2obRhJd89/d8KreCBVkowW0aPGRG6C6PyrtUUH6PUpxbGfHKorB1Ae5mT6OpPic4cO348g/+BYR+jo/KS/ScxSI5HEaJxvJueKuHdQjE2Zd+qlorXgeXF5rXis34FPuUfWww0XUxKpQ9Qm51dC/07+JfA/bCa6bvnIaxtJglV02xH9HvkGZ2ATFBi7nE749PMMR8hcd9wilxfq5fvaP4rRL/1DkWjKnnH931F0tSUtYXL6S3p04dGHSorZ7Q4e+whDobMyis2ebZ/cWRWLFwFLG/dG4j80rtR/P+dhGblxpaoI7W7TRhELWIJ2tjk3gtXkGXuFo+pBEGxNm2apvdsSO3lZ7yNyECpTKpnM6O2BB4vp91tK+xAu3Tz0wd6Mkwj66KuSSIgaUy7YNTw2UxjzN4Wmhl3vW9pGwKw3SpXSPIM4+tU8KN",
+            "encryption": "cgck"
+          },
+          "666a95b08735bc1c81afba3870fb0b3a": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "dpWlrUlIm3MjlbRANf0qlP0rXoujlH+rTdWBXwAAABAEBc3Z2THIJDqxk6CTV5EWiPzw5CBjL2LGqbBgqvxBVSSQEwig5/HQTtK7RBNWO5V5FqzSvqq+y6WyBf4EGp+wc/Hbizn1ZabZcqXaaHyLOAw0P50IhSAZstqg4GkO3lp3AUEyHdB/LDOvTtHpf++IIBNBqdNOuqMf1jbwvOH8kyViJYGvAxXGQ+MUCd1gDNSWCEtaaNa+LUf8LRQj9cyVtPuE19Xge2LQGLzk5RfSmlua5BnWolvxnLXd6oVRPeJPEywrPYASRTiipWrsHH6XM/d3bW5gKLUUPNK/m6kexTO8LFYceOwQrguZe9j6Q/yXBXNgVMpRiYi66dF7ylbwYZ1T2xkYlnxonwOjT4M6a9xnmHlQ2annWVIclo3El3fNEcoyFYvOaCjxEuJkqSpvVrEadc3oA0ymXCXDpB8sjoyOJoYIG/XZwQqDlVQG6il9BLYMbBgrQB926m5lD7pFNA+gkmjd392gGHufAKWs7CH67YytyHOTpr3dJToCa/sQFMPVQWKEuYsNgpAa69dY25XQdnwJ5fbG4yFk1MrqPePDxLMkYErWZZgLax++2hezD03Lig1vQRAn1ca9cQ2qpRFMDF/TwwZOM0HItUsV2mABaBWkae8UfaFMcg4H6E0SAw0WWJEbpTK2vMxxsUM222ZVeVIafB6XdpzifRuulw+6GvCFG5xXCEEW78ABWlkBEI2RriGoDQqkiEqs9JoDeSvC91hollVwj+6Fby9Vbgg2pJGaOeeysRPTNDCQHtJyGBUAV7pp7OoIy4+94EWOiT9AA8BsAu5beT7lHaTPr1Pfd1hM3vMLqv3yE0b4fzeOEtgkIeJZv+co5BbOdyTNk44mAY9OAbRfx57u/Dp6HCM6PRr/bTXca5RXpXRK9CtK",
+            "encryption": "cgck"
+          },
+          "82a7752f741d448f5e947993ad6e71fa": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "7y7KdpumQ7TS/HPIDeYLsV3BF2RbkeU9+lSTAwAAABAECRJ6dpUrew/om3uFfe8TwbXeaB0GDkMIJvLnHt7RcDmV7Qy027gdQ4jwtMaJyvPMCQvETxHDDs5u7c7eC7OckN5VtMKegVyPqAncVfdH0rcZxZiwvJQ5fyF4svMeAXORF6yrrhmaV6Gj4SeGo3fHY7osTER09y78MZNEPWSLyhneCT+3JpjYqcXpqIp2+h5vCChnVyQnMaIeCyxsQOMTZHk8BKzz9GUcsHtj/8z2C8UH8eAJ/2t6x/K4qbyq91G3DMnnkHzwMQHuWezNKLEiaukly4ZX7GmevZLVgPPQlRBnB1ugBHuvnKp+FgSnbi7rFk77Nst8nYZZ2YwhOfkSU19bhiQWtFMyfRw7RGtRUFxaxWRqlmNbVIitWpxL48eLFshn4yRASTYrOVo+l6r3rCFm08NMq0kWKleOLg1Hvx2YXJuacRcnlYlYUMtkTEgJFx2cv5bDFFicKLwxALuy/HeCF4F3xjbLcR8NbZbYP/FmJamUvao0PRQ3Dzo//b5SCO9CNcAMcPFKXLjNjrspr2quinTU4lW0LH2KVZ89MkVE9p1erdZrX02FGLHFHn+MDcJKkYLP3eXhaFaeXoymSndJETLBL28hCn1zvaKcefIxUig8Ax+ExkX1O1Devav3AWPM7McAkWSKyuMLKmWXYsbk0enGZfIDhkqyixexA+cXHeTJB4XUCUkW5QQvb1h3F4+HSPXq75qwUFHqbOdnFXkUHmZo+OdRNM9A0vdQnhWOdZOUFEjYP6AtqGJ405/ZDme+/qgTAhKtuKnqW0ldFGIh3SdWqKI/c16Zhe3S2bMk25NEbUwGNmIsMsRHQfidDcgffKm27uRVNm1+ceirjAujUYBVTyy24yk+FW6Lx7BF/3ADFsEGilc3vHUEQmur",
+            "encryption": "cgck"
+          },
+          "9460bea4364da6515e64761ed8a6fbd5": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "eEbF5WFGJZ7dB/sG8bXB7yx72dIyJIvMjW3ATgAAABAEGRhCszD2HyPq9QQayq+qzHkKzYQozCF0HsaHkSmrrmAU6F6yom8hudLTAnIpMfr2BGeYi1vmOIKi96fH6BEN+V3vIpYVVWcNa30OZg/bFMSFUxZ5x+Ro4ujxM4r+ayb1B6oERWQUHw9VZROBlNz/GOtKrxNHi04swO4r29nCZNDrqhfrYj2hiuElQpRw9EQlBpvADO8RjXclgrFDiv6jpdfQ9rux6MHa60nrRDXEvKPNZsWkB0nC9IAmYjYUZXGSDUVNBt495TEzpqzXH4rVHSFh0SYpePB7eAFpIClu88mATYgou35V3ErLBMXbl4P7FynxlFhCpi1yjMD6XG2aWL6vn92X9vnq/6JeW3m9q4+NujZzMLEPkLJQCjwgOt8wAQD5tN89Sxe3iHnBHNRVN/oHqrkGE4yT+GyPvp+qv/SlQQB2cqsBBiepAUirnLpoGXRXzWU6wuqDEdV3Ydc4O1qVjI2PeZLGL+uGUTgIY+5iO8P4aWMzTpyuYHwp29APChfkkW2TJ1Whufc11L1nU1Fie8VTWUNqd3DX2TxYIuaBX15a38aV3fOp1DC44QmMAfoJqQ0UsTe82vmKllp4CbVFKAImNlo6ahHH+jZS54uUbLVPKLKWsG+LloAHbaz2BvB9YqSwKt2qv5+i4mfT07KY3ZbaZv6/WDW8pFVqo0p4jTKBzK1HrMqoISvRdxSQEM1dHHffCp6ZiRsJUQtlShUZGM9ELzX+1lsqkplqifKQ7tEzLuZak89nZFljjrJWCzqtX/+KPuEiQRQxtk7tNqgyLlvq9iyCsoTZMtR9fbQplh5QPaM4Ylyu5W+8udj9GOgzYsKiHLXs4sRnxONIPCFEQboXe0r9FmP5d9IY1jmopkhLtWHT3XnXreb2dE2X",
+            "encryption": "cgck"
+          },
+          "d779bfa7c4038340520215e7968dc4c6": {
+            ".": {
+              "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+            },
+            "/": "./blob",
+            "data": "yvLsHLSKbIsDdG4nCToCg9e1UeDPKf8PEgFJ+gAAABAEBFFUlE18it7twX64NWoWdcvbnJU7UXO6vur1FNCTTttnahpCGqsMyFU5KeMr//qBBojWZx+WchlQdito1WYCuRGOOVdV8l2nNcgJ3VEuW6cHu423I308v7AIIPgLuQQIBzDCbfTmRR2R55lXT8TB7wHrtM0F76sGS7FNBI8Z6s1j8SJQFujYB+OGI/k2f75aFQw+/M6UL25JBNKXOu7ub8JZ2zbDRtlxsluXCf1ZyfbkO66RYqneSypJz3GcZH3LGFtezITdjbmTCX2ZUql67NT2slwY4yo0YG36pq0GowcQ6W+EmWbkJhoo2hyIKnJxDOO8iclbsXdxDbfmb8B+p7yS46cN/OBLEcNJj3EYk42INKvEXmRzIK4ZdN6ZmjFPCkPCFU68BSRkXxiSEzKovKDlepwLnsXk+5icGmSIdImhi3CkAjQpyLdMQZ1lHpLmA8Yi6Mb0ohH8FZRoODjmJDLPBRqnH9830KGVEPminSUegAyeN2WQQK6Nyi3iPcAHF6ISZlJ+GwTbcnWZPYsW0/jA7jnmKFCHIQqoI7dWWb+ux+w1/ytpDDIrtpUpiRrOFjHD1r/jVwFH3vdAF14kNeDvBUC8RSjDg0zao40LgPenVwx7fdzQJZ0oooHB6Ls6FZWuGQemq/8/saKZn0m10pN2QMYgOqXGrJwOSkFwAZaqEChic3mkVPWwDBuWI51aAxJEPanXBdPh0TfsDWo1szvJ/heOaOzoRt9uvzK4Hu9mvJKc1rCxvopmIq4rOlEoC11rZm6nz5Fo8OHx/EvzYXeVSR7Y0D71PTWOvtRn5KmpTaeXqtwVCdDgdbJ60ANlB693Bbs2si3A7WwaL8CsWDfyaJa8Bp7SZGEcdl+JY0YPzD05tCUSNgdOlEseEVsy",
+            "encryption": "cgck"
+          }
+        },
+        "playout_formats": {
+          "dash-widevine": {
+            "drm": {
+              "content_id": "",
+              "enc_scheme_name": "cenc",
+              "license_servers": [],
+              "type": "DrmWidevine"
+            },
+            "protocol": {
+              "min_buffer_length": 2,
+              "type": "ProtoDash"
+            }
+          },
+          "hls-aes128": {
+            "drm": {
+              "enc_scheme_name": "aes-128",
+              "type": "DrmAes128"
+            },
+            "protocol": {
+              "type": "ProtoHls"
+            }
+          },
+          "hls-sample-aes": {
+            "drm": {
+              "enc_scheme_name": "cbcs",
+              "type": "DrmSampleAes"
+            },
+            "protocol": {
+              "type": "ProtoHls"
+            }
+          }
+        },
+        "streams": {
+          "audio": {
+            "encryption_schemes": {
+              "aes-128": {
+                "iv": "85d7744a26ac8a8cf514cf51c914025f",
+                "key_id": "12e8883f70c930b27d74e815d231b3e3",
+                "type": "EncSchemeAes128"
+              },
+              "cbcs": {
+                "iv": "7191a64d59f588ae8f53a50509fd056e",
+                "key_id": "666a95b08735bc1c81afba3870fb0b3a",
+                "type": "EncSchemeCbcs"
+              },
+              "cenc": {
+                "iv": "30fc1bc23af452f4aa99eddce6a1157e",
+                "key_id": "d779bfa7c4038340520215e7968dc4c6",
+                "type": "EncSchemeCenc"
+              }
+            },
+            "representations": {
+              "audioaudio_aac@384000": {
+                "bit_rate": 384000,
+                "codec": "aac",
+                "codec_desc": "",
+                "media_struct_stream_key": "audio",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p",
+                "transcode_matches_rep": true,
+                "type": "RepAudio"
+              }
+            }
+          },
+          "video": {
+            "encryption_schemes": {
+              "aes-128": {
+                "iv": "206704fd3fe1313ad8c5c671734f3ede",
+                "key_id": "9460bea4364da6515e64761ed8a6fbd5",
+                "type": "EncSchemeAes128"
+              },
+              "cbcs": {
+                "iv": "03efe06321dd4f2375ef3eb991b2f880",
+                "key_id": "82a7752f741d448f5e947993ad6e71fa",
+                "type": "EncSchemeCbcs"
+              },
+              "cenc": {
+                "iv": "904b8b5ca99f405d8b094be43e5818e7",
+                "key_id": "04d7c4c75b3cd9656452f8c818f2bc33",
+                "type": "EncSchemeCenc"
+              }
+            },
+            "representations": {
+              "videovideo_1280x720_h264@4500000": {
+                "bit_rate": 4500000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 720,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 1280
+              },
+              "videovideo_1920x1080_h264@9500000": {
+                "bit_rate": 9500000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 1080,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 1920
+              },
+              "videovideo_3840x2160_h264@20000000": {
+                "bit_rate": 20000000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 2160,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": true,
+                "type": "RepVideo",
+                "width": 3840
+              },
+              "videovideo_640x360_h264@520000": {
+                "bit_rate": 520000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 360,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 640
+              },
+              "videovideo_640x360_h264@810000": {
+                "bit_rate": 810000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 360,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 640
+              },
+              "videovideo_768x432_h264@1100000": {
+                "bit_rate": 1100000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 432,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 768
+              },
+              "videovideo_960x540_h264@2000000": {
+                "bit_rate": 2000000,
+                "codec": "h264",
+                "codec_desc": "",
+                "height": 540,
+                "media_struct_stream_key": "video",
+                "transcode_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+                "transcode_matches_rep": false,
+                "type": "RepVideo",
+                "width": 960
+              }
+            }
+          }
+        }
+      },
+      "prod_master_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+      "prod_master_var_key": "default",
+      "ready": true,
+      "simple_watermark": null,
+      "store_clear": false
+    }
+  },
+  "public": {
+    "asset_metadata": {
+      "sources": {
+        "default": {
+          ".": {
+            "container": "hq__GoqajxjuV9vswzanfDR2TcZgH2cxDGp1HZxGZHJueBnAdDh2paxeShhtiuB941i6fSwacjujPPw"
+          },
+          "/": "./rep/playout/default/options.json"
+        }
+      }
+    },
+    "name": "bunny_video"
+  },
+  "transcodes": {
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2": {
+      "mez_prep_spec": {
+        "billing_items": [
+          {
+            "created_at": "2025-05-29T16:06:59.798690196Z",
+            "creation_request_id": "02b14168-8257-4424-9793-964bdc3418f7",
+            "description": "Transcode for stream 'video', master variant 'default'",
+            "dest_bitrate": 20000000,
+            "dest_codec": "h264",
+            "dest_count": 1,
+            "dest_height": 2160,
+            "dest_media_type": "video",
+            "dest_rate": "24",
+            "dest_width": 3840,
+            "source_bitrate": 9282573,
+            "source_codec": "h264",
+            "source_count": 1,
+            "source_duration_rat": "14315/24",
+            "source_height": 1080,
+            "source_media_type": "video",
+            "source_rate": "24",
+            "source_width": 1920,
+            "type": "ingest"
+          }
+        ],
+        "bit_depth": 0,
+        "bit_rate": 20000000,
+        "default_for_media_type": true,
+        "disable_encoder_substitution_mez": false,
+        "disable_encoder_substitution_seg": false,
+        "encoding": "h264",
+        "expected_final_timebase": "1/19200",
+        "hdr": null,
+        "height": 2160,
+        "key_frame_interval": 48,
+        "label": "video",
+        "language": "",
+        "lro_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpVrELB9orqqfJGee5vjTab2",
+        "mapping_info": "",
+        "media_type": "video",
+        "mez_count": 20,
+        "name": "video",
+        "part_hashes": [
+          "hqpe89aeR7MExJbRLRx6DMzwvDXQtoyMo4ZLtt19pbKtGh39Hb49M",
+          "hqpeaEnpm36Gn6SubmVf7emiGG4MFNS3V25ZaxD2uovaUc11E6Wc7",
+          "hqpeUMp1WxNu5TTf1RUGNRCopNgg5D1EBmCFD6UcTuTRqLF3bHtcf",
+          "hqpe2AzjMVFJ9FbhcK4tSduYT6MyU6bteiebMmModPPUVnKuDq22BG",
+          "hqpeuHL9N9cw716MYFUP3aoMhJEk3TsmcvpiFbzeJ5yVEEKuPvihd",
+          "hqpe28FgatNA8FE2nfzwGsgQVFMwGfr2usRVmAbvrvNWNMJ2RU14Z4",
+          "hqpe2b41o83SonvFGratyqTypEXV4f3D9p7ZaeDtdYssc6nN2UUKL3",
+          "hqpe2NfBgDdpt2Cn2mGyoS2WuSgQUW48DhUvvcqkWxfwpkQYpCdLaB",
+          "hqpeP626DTNP9qP2V6YyAyY8Uk5sh6RR58jg6wxrsdAb1Kn8nBk1P",
+          "hqpesRCj4cKrQ5GBbZD33QthiUH9NKSpaEG4vLZUJVqhvvVgHQgd5",
+          "hqpeDB2Zbie1Pzz2q7384cz4DdDAMK5QPBzjCqsTHs4ZMKxqnEmZS",
+          "hqpeFPDXPmacoeNPjP7PbijCcdQkNfJfhjESJcv2z86SEerbvmanU",
+          "hqpefXYHmRe7Hch3CzVXB5NX4KkcuggE5ewMsFvqgqh8CMyyRnify",
+          "hqpefoegYfbTdZBh1q1447kEH2ak9WHx2eibAFJp9LJR99kWoe3nW",
+          "hqpeQL2ubk4woqk5FBGtvcj5E6fM4pgasCufimZRcMjEdoUwqCttn",
+          "hqpeDroMXFUjdEfQES2zRYztWRs481SYdJtYMJjmFNpvP1R6ECa4f",
+          "hqpeTqYxK9MdtecBEpFpxrZftABwJaw3HMrShAC6sPi17y4ctVyqq",
+          "hqpe2a5cHZdQsEZ45yZHp6Rz3w2mGuMdCRJZ1RGFnAu4ohLQ66NzPj",
+          "hqpe2Li3R6B2nXXHPRRb2hoDqE5EqpGZ1Y6FwWV4TyarB8cgw8Xy1a",
+          "hqpeAZF7zKKZUSu5WSXxYZaNR2VUTE3wtR1iK47NbMAAmbgYGAfhz"
+        ],
+        "ready": true,
+        "rotate": 0,
+        "seg_dur": {
+          "float": 2,
+          "float_exact": true,
+          "rat": "2",
+          "time_base": "1/2400",
+          "ts": 4800
+        },
+        "segs_per_mez": 15,
+        "source_frame_rate": "24",
+        "source_streams": [
+          {
+            "files_api_path": "bunny_video.mov",
+            "source_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+            "stream_index": 0
+          }
+        ],
+        "source_timebase": "1/2400",
+        "store_clear": false,
+        "target_frame_rate": null,
+        "target_timebase": "1/2400",
+        "width": 3840
+      },
+      "stream": {
+        "aspect_ratio": "16/9",
+        "bit_rate": 17784403,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "default_for_media_type": true,
+        "disable_encoder_substitution_seg": false,
+        "duration": {
+          "float": 596.4583333333334,
+          "float_exact": false,
+          "rat": "14315/24",
+          "time_base": "1/19200",
+          "ts": 11452000
+        },
+        "hdr": null,
+        "height": 2160,
+        "label": "video",
+        "language": "",
+        "nb_frames": 1,
+        "optimum_seg_dur": {
+          "float": 2,
+          "float_exact": true,
+          "rat": "2",
+          "time_base": "1/19200",
+          "ts": 38400
+        },
+        "rate": "24",
+        "sources": [
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe89aeR7MExJbRLRx6DMzwvDXQtoyMo4ZLtt19pbKtGh39Hb49M",
+            "timeline_end": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "timeline_start": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeaEnpm36Gn6SubmVf7emiGG4MFNS3V25ZaxD2uovaUc11E6Wc7",
+            "timeline_end": {
+              "float": 60,
+              "float_exact": true,
+              "rat": "60",
+              "time_base": "1/19200",
+              "ts": 1152000
+            },
+            "timeline_start": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeUMp1WxNu5TTf1RUGNRCopNgg5D1EBmCFD6UcTuTRqLF3bHtcf",
+            "timeline_end": {
+              "float": 90,
+              "float_exact": true,
+              "rat": "90",
+              "time_base": "1/19200",
+              "ts": 1728000
+            },
+            "timeline_start": {
+              "float": 60,
+              "float_exact": true,
+              "rat": "60",
+              "time_base": "1/19200",
+              "ts": 1152000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe2AzjMVFJ9FbhcK4tSduYT6MyU6bteiebMmModPPUVnKuDq22BG",
+            "timeline_end": {
+              "float": 120,
+              "float_exact": true,
+              "rat": "120",
+              "time_base": "1/19200",
+              "ts": 2304000
+            },
+            "timeline_start": {
+              "float": 90,
+              "float_exact": true,
+              "rat": "90",
+              "time_base": "1/19200",
+              "ts": 1728000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeuHL9N9cw716MYFUP3aoMhJEk3TsmcvpiFbzeJ5yVEEKuPvihd",
+            "timeline_end": {
+              "float": 150,
+              "float_exact": true,
+              "rat": "150",
+              "time_base": "1/19200",
+              "ts": 2880000
+            },
+            "timeline_start": {
+              "float": 120,
+              "float_exact": true,
+              "rat": "120",
+              "time_base": "1/19200",
+              "ts": 2304000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe28FgatNA8FE2nfzwGsgQVFMwGfr2usRVmAbvrvNWNMJ2RU14Z4",
+            "timeline_end": {
+              "float": 180,
+              "float_exact": true,
+              "rat": "180",
+              "time_base": "1/19200",
+              "ts": 3456000
+            },
+            "timeline_start": {
+              "float": 150,
+              "float_exact": true,
+              "rat": "150",
+              "time_base": "1/19200",
+              "ts": 2880000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe2b41o83SonvFGratyqTypEXV4f3D9p7ZaeDtdYssc6nN2UUKL3",
+            "timeline_end": {
+              "float": 210,
+              "float_exact": true,
+              "rat": "210",
+              "time_base": "1/19200",
+              "ts": 4032000
+            },
+            "timeline_start": {
+              "float": 180,
+              "float_exact": true,
+              "rat": "180",
+              "time_base": "1/19200",
+              "ts": 3456000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe2NfBgDdpt2Cn2mGyoS2WuSgQUW48DhUvvcqkWxfwpkQYpCdLaB",
+            "timeline_end": {
+              "float": 240,
+              "float_exact": true,
+              "rat": "240",
+              "time_base": "1/19200",
+              "ts": 4608000
+            },
+            "timeline_start": {
+              "float": 210,
+              "float_exact": true,
+              "rat": "210",
+              "time_base": "1/19200",
+              "ts": 4032000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeP626DTNP9qP2V6YyAyY8Uk5sh6RR58jg6wxrsdAb1Kn8nBk1P",
+            "timeline_end": {
+              "float": 270,
+              "float_exact": true,
+              "rat": "270",
+              "time_base": "1/19200",
+              "ts": 5184000
+            },
+            "timeline_start": {
+              "float": 240,
+              "float_exact": true,
+              "rat": "240",
+              "time_base": "1/19200",
+              "ts": 4608000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpesRCj4cKrQ5GBbZD33QthiUH9NKSpaEG4vLZUJVqhvvVgHQgd5",
+            "timeline_end": {
+              "float": 300,
+              "float_exact": true,
+              "rat": "300",
+              "time_base": "1/19200",
+              "ts": 5760000
+            },
+            "timeline_start": {
+              "float": 270,
+              "float_exact": true,
+              "rat": "270",
+              "time_base": "1/19200",
+              "ts": 5184000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeDB2Zbie1Pzz2q7384cz4DdDAMK5QPBzjCqsTHs4ZMKxqnEmZS",
+            "timeline_end": {
+              "float": 330,
+              "float_exact": true,
+              "rat": "330",
+              "time_base": "1/19200",
+              "ts": 6336000
+            },
+            "timeline_start": {
+              "float": 300,
+              "float_exact": true,
+              "rat": "300",
+              "time_base": "1/19200",
+              "ts": 5760000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeFPDXPmacoeNPjP7PbijCcdQkNfJfhjESJcv2z86SEerbvmanU",
+            "timeline_end": {
+              "float": 360,
+              "float_exact": true,
+              "rat": "360",
+              "time_base": "1/19200",
+              "ts": 6912000
+            },
+            "timeline_start": {
+              "float": 330,
+              "float_exact": true,
+              "rat": "330",
+              "time_base": "1/19200",
+              "ts": 6336000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpefXYHmRe7Hch3CzVXB5NX4KkcuggE5ewMsFvqgqh8CMyyRnify",
+            "timeline_end": {
+              "float": 390,
+              "float_exact": true,
+              "rat": "390",
+              "time_base": "1/19200",
+              "ts": 7488000
+            },
+            "timeline_start": {
+              "float": 360,
+              "float_exact": true,
+              "rat": "360",
+              "time_base": "1/19200",
+              "ts": 6912000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpefoegYfbTdZBh1q1447kEH2ak9WHx2eibAFJp9LJR99kWoe3nW",
+            "timeline_end": {
+              "float": 420,
+              "float_exact": true,
+              "rat": "420",
+              "time_base": "1/19200",
+              "ts": 8064000
+            },
+            "timeline_start": {
+              "float": 390,
+              "float_exact": true,
+              "rat": "390",
+              "time_base": "1/19200",
+              "ts": 7488000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeQL2ubk4woqk5FBGtvcj5E6fM4pgasCufimZRcMjEdoUwqCttn",
+            "timeline_end": {
+              "float": 450,
+              "float_exact": true,
+              "rat": "450",
+              "time_base": "1/19200",
+              "ts": 8640000
+            },
+            "timeline_start": {
+              "float": 420,
+              "float_exact": true,
+              "rat": "420",
+              "time_base": "1/19200",
+              "ts": 8064000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeDroMXFUjdEfQES2zRYztWRs481SYdJtYMJjmFNpvP1R6ECa4f",
+            "timeline_end": {
+              "float": 480,
+              "float_exact": true,
+              "rat": "480",
+              "time_base": "1/19200",
+              "ts": 9216000
+            },
+            "timeline_start": {
+              "float": 450,
+              "float_exact": true,
+              "rat": "450",
+              "time_base": "1/19200",
+              "ts": 8640000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeTqYxK9MdtecBEpFpxrZftABwJaw3HMrShAC6sPi17y4ctVyqq",
+            "timeline_end": {
+              "float": 510,
+              "float_exact": true,
+              "rat": "510",
+              "time_base": "1/19200",
+              "ts": 9792000
+            },
+            "timeline_start": {
+              "float": 480,
+              "float_exact": true,
+              "rat": "480",
+              "time_base": "1/19200",
+              "ts": 9216000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe2a5cHZdQsEZ45yZHp6Rz3w2mGuMdCRJZ1RGFnAu4ohLQ66NzPj",
+            "timeline_end": {
+              "float": 540,
+              "float_exact": true,
+              "rat": "540",
+              "time_base": "1/19200",
+              "ts": 10368000
+            },
+            "timeline_start": {
+              "float": 510,
+              "float_exact": true,
+              "rat": "510",
+              "time_base": "1/19200",
+              "ts": 9792000
+            }
+          },
+          {
+            "duration": {
+              "float": 30,
+              "float_exact": true,
+              "rat": "30",
+              "time_base": "1/19200",
+              "ts": 576000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpe2Li3R6B2nXXHPRRb2hoDqE5EqpGZ1Y6FwWV4TyarB8cgw8Xy1a",
+            "timeline_end": {
+              "float": 570,
+              "float_exact": true,
+              "rat": "570",
+              "time_base": "1/19200",
+              "ts": 10944000
+            },
+            "timeline_start": {
+              "float": 540,
+              "float_exact": true,
+              "rat": "540",
+              "time_base": "1/19200",
+              "ts": 10368000
+            }
+          },
+          {
+            "duration": {
+              "float": 26.458333333333332,
+              "float_exact": false,
+              "rat": "635/24",
+              "time_base": "1/19200",
+              "ts": 508000
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/19200",
+              "ts": 0
+            },
+            "source": "hqpeAZF7zKKZUSu5WSXxYZaNR2VUTE3wtR1iK47NbMAAmbgYGAfhz",
+            "timeline_end": {
+              "float": 596.4583333333334,
+              "float_exact": false,
+              "rat": "14315/24",
+              "time_base": "1/19200",
+              "ts": 11452000
+            },
+            "timeline_start": {
+              "float": 570,
+              "float_exact": true,
+              "rat": "570",
+              "time_base": "1/19200",
+              "ts": 10944000
+            }
+          }
+        ],
+        "start_time": {
+          "float": 0,
+          "float_exact": true,
+          "rat": "0",
+          "time_base": "1/19200",
+          "ts": 0
+        },
+        "time_base": "1/19200",
+        "width": 3840
+      }
+    },
+    "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p": {
+      "mez_prep_spec": {
+        "billing_items": [
+          {
+            "created_at": "2025-05-29T16:06:59.798874845Z",
+            "creation_request_id": "02b14168-8257-4424-9793-964bdc3418f7",
+            "description": "Transcode for stream 'audio', master variant 'default'",
+            "dest_bitrate": 384000,
+            "dest_channels": 6,
+            "dest_codec": "aac",
+            "dest_count": 1,
+            "dest_media_type": "audio",
+            "dest_rate": "48000",
+            "source_bitrate": 437605,
+            "source_channels": 6,
+            "source_codec": "aac",
+            "source_count": 1,
+            "source_duration_rat": "357877/600",
+            "source_media_type": "audio",
+            "source_rate": "48000",
+            "type": "ingest"
+          }
+        ],
+        "bit_rate": 384000,
+        "channel_count": 6,
+        "channel_layout": "5.1",
+        "default_for_media_type": true,
+        "disable_encoder_substitution_mez": false,
+        "disable_encoder_substitution_seg": false,
+        "encoding": "aac",
+        "expected_final_timebase": "1/48000",
+        "label": "audio",
+        "language": "",
+        "lro_id": "tlro1EjhzTsR6RzoHVoK6oQacc8mzD4YXJmpjqTYeHTmyBbeLPHXyiDR1p",
+        "mapping_info": "",
+        "media_type": "audio",
+        "mez_count": 20,
+        "name": "audio",
+        "part_hashes": [
+          "hqpeBeMzhekQouPdZXG8u6DN7Qh32oJdih15wC347CyzkQtyFbfs",
+          "hqpePXsvvnFAuDvu576KLT4pd2EZYAJjhd5wY5Fb9XmqwBTwSaSH",
+          "hqpeGPW1Pkp6JSCErPG25KRyKMPjTk5HsHopWb1mJGhc2NfJqsi5",
+          "hqpeGBUGF4ckpjMT8sNCAq9eEXczifJ151qtfChLj48rZApmD2qb",
+          "hqpe4hEHVLBgNzBVevLm12QY2D5SMJeUo4bPGuRLmt5zZebNWiKw",
+          "hqpeDsazNdz8kShCBoTUevZJwEU22bzdYPWQEygNTbsM2GhLGo65",
+          "hqpeG2z97d4jkATCBkNztZ4JoCVT8hFas7DR7XMzUHJF58G5NX3K",
+          "hqpeFoYNZVWMZaSB3KhAxzt3ci5BgY3HH5rsLapD4kDuh4Ce2y2u",
+          "hqpe2swK36zeSsLSqq7zKEPsiX6yd9fnCV7hwHkXnS9pBiai6hem",
+          "hqpeP4Jz3L2j8nmHzHmcrALozum9WvkMsDGCn4DSsYbAxKmmgYy2",
+          "hqpeLB7m2G6RR28V1yUBXaN2qVqxFeNJerVrrQ6rFJince5Jr4v1",
+          "hqpe5H7FW2Zwj5KmdTMxieYmspn2oq7rGg4r7n6sYg8chPA9u6Xf",
+          "hqpemzDbo5HvmD3T9YTBHxeGApBvNA9gA99yaaLqtHU5Aa9dBED",
+          "hqpeDAnfieM1fvpyTNNusmBm7Cf8cKHLDE9boN8HSExPBgagZYn9",
+          "hqpeFsR6mLU2AExdvp9sNJP8huZttroYd6kpmyG5fvi1Vr2TqJP7",
+          "hqpeQDLPBuJLHPBmUJ9CDAHPURE6fQJq5SF7sAtHbTXEyg5gRQb7",
+          "hqpe796UETuMn731CxHcAGZMSVS1XwyyFkoRWKWnz8rQ8SkKjc1j",
+          "hqpe4RLWdidsGfN7hZ7jHr1UMjfMmVSgd2XEVdg68qRqd2x2RtSZ",
+          "hqpeCwo5p25gMNdf8R87c1gUpWBejFiuSdnHuwcFgAiFcd39kDk1",
+          "hqpe9X7vcEyaj1F47djUt488m2mtrafFvWuXWH99TQVrQ5FfzuBy"
+        ],
+        "ready": true,
+        "seg_dur": {
+          "float": 2.005333333333333,
+          "float_exact": false,
+          "rat": "752/375",
+          "time_base": "1/48000",
+          "ts": 96256
+        },
+        "segs_per_mez": 15,
+        "source_sample_rate": 48000,
+        "source_streams": [
+          {
+            "files_api_path": "bunny_video.mov",
+            "source_hash": "hq__JT3MEkyU1oofDZyNSr3uDTk9zyLEpNdzSNNBGiLxYvvq53tMxRPEMp2A75jYqv6RhX1bvF49Uz",
+            "stream_index": 2
+          }
+        ],
+        "source_timebase": "1/48000",
+        "store_clear": false,
+        "target_sample_rate": 48000,
+        "target_timebase": "1/48000"
+      },
+      "stream": {
+        "bit_rate": 436039,
+        "channel_layout": "5.1",
+        "channels": 6,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "default_for_media_type": true,
+        "disable_encoder_substitution_seg": false,
+        "duration": {
+          "float": 596.48,
+          "float_exact": false,
+          "rat": "14912/25",
+          "time_base": "1/48000",
+          "ts": 28631040
+        },
+        "label": "audio",
+        "language": "",
+        "optimum_seg_dur": {
+          "float": 2.005333333333333,
+          "float_exact": false,
+          "rat": "752/375",
+          "time_base": "1/48000",
+          "ts": 96256
+        },
+        "rate": "48000",
+        "sources": [
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeBeMzhekQouPdZXG8u6DN7Qh32oJdih15wC347CyzkQtyFbfs",
+            "timeline_end": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "timeline_start": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpePXsvvnFAuDvu576KLT4pd2EZYAJjhd5wY5Fb9XmqwBTwSaSH",
+            "timeline_end": {
+              "float": 60.16,
+              "float_exact": false,
+              "rat": "1504/25",
+              "time_base": "1/48000",
+              "ts": 2887680
+            },
+            "timeline_start": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeGPW1Pkp6JSCErPG25KRyKMPjTk5HsHopWb1mJGhc2NfJqsi5",
+            "timeline_end": {
+              "float": 90.24,
+              "float_exact": false,
+              "rat": "2256/25",
+              "time_base": "1/48000",
+              "ts": 4331520
+            },
+            "timeline_start": {
+              "float": 60.16,
+              "float_exact": false,
+              "rat": "1504/25",
+              "time_base": "1/48000",
+              "ts": 2887680
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeGBUGF4ckpjMT8sNCAq9eEXczifJ151qtfChLj48rZApmD2qb",
+            "timeline_end": {
+              "float": 120.32,
+              "float_exact": false,
+              "rat": "3008/25",
+              "time_base": "1/48000",
+              "ts": 5775360
+            },
+            "timeline_start": {
+              "float": 90.24,
+              "float_exact": false,
+              "rat": "2256/25",
+              "time_base": "1/48000",
+              "ts": 4331520
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe4hEHVLBgNzBVevLm12QY2D5SMJeUo4bPGuRLmt5zZebNWiKw",
+            "timeline_end": {
+              "float": 150.4,
+              "float_exact": false,
+              "rat": "752/5",
+              "time_base": "1/48000",
+              "ts": 7219200
+            },
+            "timeline_start": {
+              "float": 120.32,
+              "float_exact": false,
+              "rat": "3008/25",
+              "time_base": "1/48000",
+              "ts": 5775360
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeDsazNdz8kShCBoTUevZJwEU22bzdYPWQEygNTbsM2GhLGo65",
+            "timeline_end": {
+              "float": 180.48,
+              "float_exact": false,
+              "rat": "4512/25",
+              "time_base": "1/48000",
+              "ts": 8663040
+            },
+            "timeline_start": {
+              "float": 150.4,
+              "float_exact": false,
+              "rat": "752/5",
+              "time_base": "1/48000",
+              "ts": 7219200
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeG2z97d4jkATCBkNztZ4JoCVT8hFas7DR7XMzUHJF58G5NX3K",
+            "timeline_end": {
+              "float": 210.56,
+              "float_exact": false,
+              "rat": "5264/25",
+              "time_base": "1/48000",
+              "ts": 10106880
+            },
+            "timeline_start": {
+              "float": 180.48,
+              "float_exact": false,
+              "rat": "4512/25",
+              "time_base": "1/48000",
+              "ts": 8663040
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeFoYNZVWMZaSB3KhAxzt3ci5BgY3HH5rsLapD4kDuh4Ce2y2u",
+            "timeline_end": {
+              "float": 240.64,
+              "float_exact": false,
+              "rat": "6016/25",
+              "time_base": "1/48000",
+              "ts": 11550720
+            },
+            "timeline_start": {
+              "float": 210.56,
+              "float_exact": false,
+              "rat": "5264/25",
+              "time_base": "1/48000",
+              "ts": 10106880
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe2swK36zeSsLSqq7zKEPsiX6yd9fnCV7hwHkXnS9pBiai6hem",
+            "timeline_end": {
+              "float": 270.72,
+              "float_exact": false,
+              "rat": "6768/25",
+              "time_base": "1/48000",
+              "ts": 12994560
+            },
+            "timeline_start": {
+              "float": 240.64,
+              "float_exact": false,
+              "rat": "6016/25",
+              "time_base": "1/48000",
+              "ts": 11550720
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeP4Jz3L2j8nmHzHmcrALozum9WvkMsDGCn4DSsYbAxKmmgYy2",
+            "timeline_end": {
+              "float": 300.8,
+              "float_exact": false,
+              "rat": "1504/5",
+              "time_base": "1/48000",
+              "ts": 14438400
+            },
+            "timeline_start": {
+              "float": 270.72,
+              "float_exact": false,
+              "rat": "6768/25",
+              "time_base": "1/48000",
+              "ts": 12994560
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeLB7m2G6RR28V1yUBXaN2qVqxFeNJerVrrQ6rFJince5Jr4v1",
+            "timeline_end": {
+              "float": 330.88,
+              "float_exact": false,
+              "rat": "8272/25",
+              "time_base": "1/48000",
+              "ts": 15882240
+            },
+            "timeline_start": {
+              "float": 300.8,
+              "float_exact": false,
+              "rat": "1504/5",
+              "time_base": "1/48000",
+              "ts": 14438400
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe5H7FW2Zwj5KmdTMxieYmspn2oq7rGg4r7n6sYg8chPA9u6Xf",
+            "timeline_end": {
+              "float": 360.96,
+              "float_exact": false,
+              "rat": "9024/25",
+              "time_base": "1/48000",
+              "ts": 17326080
+            },
+            "timeline_start": {
+              "float": 330.88,
+              "float_exact": false,
+              "rat": "8272/25",
+              "time_base": "1/48000",
+              "ts": 15882240
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpemzDbo5HvmD3T9YTBHxeGApBvNA9gA99yaaLqtHU5Aa9dBED",
+            "timeline_end": {
+              "float": 391.04,
+              "float_exact": false,
+              "rat": "9776/25",
+              "time_base": "1/48000",
+              "ts": 18769920
+            },
+            "timeline_start": {
+              "float": 360.96,
+              "float_exact": false,
+              "rat": "9024/25",
+              "time_base": "1/48000",
+              "ts": 17326080
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeDAnfieM1fvpyTNNusmBm7Cf8cKHLDE9boN8HSExPBgagZYn9",
+            "timeline_end": {
+              "float": 421.12,
+              "float_exact": false,
+              "rat": "10528/25",
+              "time_base": "1/48000",
+              "ts": 20213760
+            },
+            "timeline_start": {
+              "float": 391.04,
+              "float_exact": false,
+              "rat": "9776/25",
+              "time_base": "1/48000",
+              "ts": 18769920
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeFsR6mLU2AExdvp9sNJP8huZttroYd6kpmyG5fvi1Vr2TqJP7",
+            "timeline_end": {
+              "float": 451.2,
+              "float_exact": false,
+              "rat": "2256/5",
+              "time_base": "1/48000",
+              "ts": 21657600
+            },
+            "timeline_start": {
+              "float": 421.12,
+              "float_exact": false,
+              "rat": "10528/25",
+              "time_base": "1/48000",
+              "ts": 20213760
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeQDLPBuJLHPBmUJ9CDAHPURE6fQJq5SF7sAtHbTXEyg5gRQb7",
+            "timeline_end": {
+              "float": 481.28,
+              "float_exact": false,
+              "rat": "12032/25",
+              "time_base": "1/48000",
+              "ts": 23101440
+            },
+            "timeline_start": {
+              "float": 451.2,
+              "float_exact": false,
+              "rat": "2256/5",
+              "time_base": "1/48000",
+              "ts": 21657600
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe796UETuMn731CxHcAGZMSVS1XwyyFkoRWKWnz8rQ8SkKjc1j",
+            "timeline_end": {
+              "float": 511.36,
+              "float_exact": false,
+              "rat": "12784/25",
+              "time_base": "1/48000",
+              "ts": 24545280
+            },
+            "timeline_start": {
+              "float": 481.28,
+              "float_exact": false,
+              "rat": "12032/25",
+              "time_base": "1/48000",
+              "ts": 23101440
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe4RLWdidsGfN7hZ7jHr1UMjfMmVSgd2XEVdg68qRqd2x2RtSZ",
+            "timeline_end": {
+              "float": 541.44,
+              "float_exact": false,
+              "rat": "13536/25",
+              "time_base": "1/48000",
+              "ts": 25989120
+            },
+            "timeline_start": {
+              "float": 511.36,
+              "float_exact": false,
+              "rat": "12784/25",
+              "time_base": "1/48000",
+              "ts": 24545280
+            }
+          },
+          {
+            "duration": {
+              "float": 30.08,
+              "float_exact": false,
+              "rat": "752/25",
+              "time_base": "1/48000",
+              "ts": 1443840
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpeCwo5p25gMNdf8R87c1gUpWBejFiuSdnHuwcFgAiFcd39kDk1",
+            "timeline_end": {
+              "float": 571.52,
+              "float_exact": false,
+              "rat": "14288/25",
+              "time_base": "1/48000",
+              "ts": 27432960
+            },
+            "timeline_start": {
+              "float": 541.44,
+              "float_exact": false,
+              "rat": "13536/25",
+              "time_base": "1/48000",
+              "ts": 25989120
+            }
+          },
+          {
+            "duration": {
+              "float": 24.96,
+              "float_exact": false,
+              "rat": "624/25",
+              "time_base": "1/48000",
+              "ts": 1198080
+            },
+            "entry_point": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "source": "hqpe9X7vcEyaj1F47djUt488m2mtrafFvWuXWH99TQVrQ5FfzuBy",
+            "timeline_end": {
+              "float": 596.48,
+              "float_exact": false,
+              "rat": "14912/25",
+              "time_base": "1/48000",
+              "ts": 28631040
+            },
+            "timeline_start": {
+              "float": 571.52,
+              "float_exact": false,
+              "rat": "14288/25",
+              "time_base": "1/48000",
+              "ts": 27432960
+            }
+          }
+        ],
+        "start_time": {
+          "float": 0,
+          "float_exact": true,
+          "rat": "0",
+          "time_base": "1/48000",
+          "ts": 0
+        },
+        "time_base": "1/48000"
+      }
+    }
+  }
+}
